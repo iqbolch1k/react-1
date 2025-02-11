@@ -9,9 +9,15 @@ import Colorchanger from './Components/Colorchanger/changer.tsx'
 import Amaliy_1 from './Components/Amaliy_1/amaliy1.tsx';
 import Updateuser from './Components/Updateuser/User.tsx'
 import Arrayy from './Components/Arrayy/array.tsx'
+import ClassCom from './Components/ClassCom/com.tsx'
+import Funkcom from './Components/Funkcom/com.tsx'
+import Events from './Components/Events/events.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <ClassCom/>
+    <Funkcom/>
+    <Events/>
     <Amaliy_1/>
     <Updateuser/>
     <Arrayy/>
